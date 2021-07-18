@@ -1,0 +1,101 @@
+
+<!--
+The downside of using the cdn is that you can't customize the bootstrap css.
+If you wannt be able to do that , you are going to download the source files because that gives you all the 
+bootstrap sass files.(sass is a css preprocessor or pre-compiler that allows you edit the bootstrap 
+variables like let's say the primary color, secondary color, the font  size of the buttons,...), 
+you will have to edit the sass files and then compile it with the  sass compiler.
+
+(1) lg means is when it hits the large break point and you know a certain screen size then the navbar 
+        will expand to show all the links, anything under the large is gonna be a hamburger menu.
+        You can also use(md) and then it would keep the links shown up until medium.
+
+        For the color of the navbar bg-dark.
+        navbar-dark will make the text light since the navbar is dark  -->
+
+<!-- to see the exact number of px for break point: -->
+LAYOUT
+  breakpoints
+
+<!-- to see color -->
+customize
+   color
+
+bg-primary: to use the blue background
+
+<!-- we want this to be able collapse on small screens -->
+    class="collapse navbar-collapse"   
+
+<!-- push the links(Menu) over to the far right   -->
+   in the ul add a class="ms-auto"              (ms:margin start)
+
+<!--data-bs-toggle: the toggle to be collapse, 
+    data-bs-target: then we need to target a specific item to toggle  -->   
+
+<!-- margin and paddin use specific class-->
+  pt-1 padding top (1-5)  
+  pb padding bottom
+  px paddin on x-axis (the left and right)
+  py padding on y-axis
+  p-3 padding all way around
+
+  my-4 : margin on y-axis (top-down)
+  ms: margin-start
+  me: margin-end
+
+<!-- to use flex box  -->
+class="d-flex" : to align items in row (side by side)
+d-flex : to use flex box on all sizes(screen)
+d-sm-flex: to use flex-box when in sm
+
+<!-- to stop images from break out the container -->
+class="img-fluid"    (image bound to the container)
+
+<!-- To reduce the size of image -->
+class="w-50"   to make image half the size 
+
+<!-- text -->
+class="lead"  : to make the text a little bigger
+class="text-sm-start" : from small screen, the text will align to start
+
+<!-- button -->
+btn-primary: will make it blue color by default
+btn-lg: to make it begger
+
+<!-- display -->
+class="d-none"
+
+on very small screens, not to show the image :
+ d-none: display none (not show at all devices)
+ d-sm-block: to show on anything begger than a small break point 
+ conclusion: they have to be together to work:
+    class="d-none d-sm-block"
+
+
+<h3 class="mb-3 mb-md-0"></h3>
+margin-botton: 3 but for medium secreen sizes
+margin-botton: 0
+
+
+<!-- To use grid -->
+class="row"
+class="col" for one colums but also for all screen devices
+class="col-md" to add column only from medium screens and up
+
+<!--gap-->
+g-4: gap all the way around
+gy
+gx
+
+
+
+
+
+
+
+
+
+
+
+
+
