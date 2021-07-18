@@ -15,7 +15,7 @@
 
 <body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark ">
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
         <div class="container">
             <!-- logo -->
             <a href="#" class="navbar-brand">Frontend Bootcamp</a>
@@ -79,7 +79,7 @@
     <section class="p-5">
         <div class="container">
             <!-- use class=row for grid -->
-            <div class="row text-center gy-4"> 
+            <div class="row text-center gy-4">
                 <!-- Components-Card to create cards-->
                 <div class="col-md ">
                     <div class="card bg-dark text-light">
@@ -143,9 +143,12 @@
                 <div class="col-md p-5">
                     <h2>Learn The Fundamentals</h2>
                     <p class="lead">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, unde voluptatibus fugit at perferendis reprehenderit.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, unde voluptatibus fugit at
+                        perferendis reprehenderit.
                     </p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ipsum perferendis repellat magnam est ducimus vero, voluptates doloremque. Temporibus nemo dignissimos possimus odit omnis consectetur, neque commodi ullam a quis!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ipsum perferendis repellat
+                        magnam est ducimus vero, voluptates doloremque. Temporibus nemo dignissimos possimus odit omnis
+                        consectetur, neque commodi ullam a quis!</p>
                     <a href="#" class="btn btn-light mt-3">
                         <i class="bi bi-chevron-right">Read More</i>
                     </a>
@@ -161,9 +164,12 @@
                 <div class="col-md p-5">
                     <h2>Learn React</h2>
                     <p class="lead">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, unde voluptatibus fugit at perferendis reprehenderit.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, unde voluptatibus fugit at
+                        perferendis reprehenderit.
                     </p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ipsum perferendis repellat magnam est ducimus vero, voluptates doloremque. Temporibus nemo dignissimos possimus odit omnis consectetur, neque commodi ullam a quis!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ipsum perferendis repellat
+                        magnam est ducimus vero, voluptates doloremque. Temporibus nemo dignissimos possimus odit omnis
+                        consectetur, neque commodi ullam a quis!</p>
                     <a href="#" class="btn btn-light mt-3">
                         <i class="bi bi-chevron-right">Read More</i>
                     </a>
@@ -172,6 +178,107 @@
                     <img src="images/react.svg" alt="" class="img-fluid">
                 </div>
             </div>
+        </div>
+    </section>
+
+    <!-- Questions Accordion -->
+    <section id="questions" class="p-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Frequently Asked Questions</h2>
+            <!-- Components-Accordion -->
+            <div class="accordion accordion-flush" id="questions">
+                <!-- item 1 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#question-one">
+                            Where exactly are you located?
+                        </button>
+                    </h2>
+                    <div id="question-one" class="accordion-collapse collapse" data-bs-parent="#questions">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto sint culpa earum quibusdam
+                            officiis ullam hic adipisci dignissimos, nobis voluptatibus minima quisquam libero minus.
+                            Laborum dolorum ipsam sequi dignissimos dolorem itaque, temporibus nesciunt officiis quo cum
+                            repellat quaerat in explicabo cumque molestias amet autem! Odio, ipsa? Iste ratione corporis
+                            aliquid!
+                        </div>
+                    </div>
+                </div>
+
+                <!-- item 2 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#question-two">
+                            How much does it cost to attend?
+                        </button>
+                    </h2>
+                    <div id="question-two" class="accordion-collapse collapse" data-bs-parent="#questions">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto sint culpa earum quibusdam
+                            officiis ullam hic adipisci dignissimos, nobis voluptatibus minima quisquam libero minus.
+                            Laborum dolorum ipsam sequi dignissimos dolorem itaque, temporibus nesciunt officiis quo cum
+                            repellat quaerat in explicabo cumque molestias amet autem! Odio, ipsa? Iste ratione corporis
+                            aliquid!
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- item 3 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#question-three">
+                            What do i need to know?
+                        </button>
+                    </h2>
+                    <div id="question-three" class="accordion-collapse collapse" data-bs-parent="#questions">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto sint culpa earum quibusdam
+                            officiis ullam hic adipisci dignissimos, nobis voluptatibus minima quisquam libero minus.
+                            Laborum dolorum ipsam sequi dignissimos dolorem itaque, temporibus nesciunt officiis quo cum
+                            repellat quaerat in explicabo cumque molestias amet autem! Odio, ipsa? Iste ratione corporis
+                            aliquid!
+                        </div>
+                    </div>
+                </div>
+
+                <!-- item 4 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#question-four">
+                           How do I sign up?
+                        </button>
+                    </h2>
+                    <div id="question-four" class="accordion-collapse collapse" data-bs-parent="#questions">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto sint culpa earum quibusdam officiis ullam hic adipisci dignissimos, nobis voluptatibus minima quisquam libero minus. Laborum dolorum ipsam sequi dignissimos dolorem itaque, temporibus nesciunt officiis quo cum repellat quaerat in explicabo cumque molestias amet autem! Odio, ipsa? Iste ratione corporis aliquid!
+                        </div>
+                    </div>
+                </div>
+
+                <!-- item 5 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#question-five">
+                            Will you help me find the job?
+                        </button>
+                    </h2>
+                    <div id="question-five" class="accordion-collapse collapse" data-bs-parent="#questions">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto sint culpa earum quibusdam officiis ullam hic adipisci dignissimos, nobis voluptatibus minima quisquam libero minus. Laborum dolorum ipsam sequi dignissimos dolorem itaque, temporibus nesciunt officiis quo cum repellat quaerat in explicabo cumque molestias amet autem! Odio, ipsa? Iste ratione corporis aliquid!
+                        </div>
+                    </div>
+                </div>
+                 
+                 
+
+            </div>
+
         </div>
     </section>
 

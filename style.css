@@ -1,8 +1,17 @@
+/* after add fixed-top class the images on showcase was cut and to fix that, 
+i created a ghost element to push the showcase down a little it, like this: */
+
+body::before {
+    display: block;
+    content: '';
+    height: 60px;
+    background-color: currentColor;
+}
 
 /* -- Newsletter -- */
-@media(min-width: 768px) {
-  .news-input{
-      width: 50%;
-      padding-left: 30px;
+@media (min-width: 768px) {
+  .news-input {
+    width: 50%;
+    padding-left: 30px;
   }
 }
